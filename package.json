@@ -1,0 +1,16 @@
+{
+  "name": "damla-personal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTML5 personal portfolio with a server-side AI assistant",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  }
+}
